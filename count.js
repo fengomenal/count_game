@@ -1,4 +1,4 @@
-let speech = new SPeechSynthesisUtterance();
+let speech = new SpeechSynthesisUtterance();
 speech.lang = "en";
 speech.rate = 1;
 speech.volume = 1;
