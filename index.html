@@ -6,7 +6,13 @@
   </head>
   <body>
     <span id="status">&#128308;</span>
-    <div></div
+    <div class="col-1" id="totalCount" style="background-color:grey;"></div>
+    <div class="col-1" id="round" style="background-color:grey;"></div>
+    <div>
+      <button id="start" class="btn btn-success mt-5 me-3" onclick="setGo(true)">Start</button>
+      <button id="show" class="btn btn-info mt-5 me-3" onclick="showCurrentValue()">Show</button>
+      <button id="stop" class="btn btn-danger mt-5 me-3" onclick="setGo(false)">Stop</button>
+    </div>
   </body>
   <script src="./count.js"></script>
 </html>
